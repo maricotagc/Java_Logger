@@ -4,9 +4,9 @@ Logging messages can help developers to debug.
 
 In this example there are two main files:
 
-1. [App.java](/src/main/java/org/moita/): simple method which divides two numbers.
+1. [App.java](/src/main/java/org/moita/) contains a simple method which divides two numbers.
 
-2. [log4j2.xml](/src/main/resources/): configuration file containing parameters for logging messages. If this file is not created, only logged messaged with level >= error will be shown. The name of the file must be log4j2.xml otherwise it won't work.
+2. [log4j2.xml](/src/main/resources/) is configuration file containing parameters for logging messages. If this file is not created only logged messaged with level >= error will be shown. The name of the file must be log4j2.xml otherwise it won't work.
 
 ## Notes about logging
 
