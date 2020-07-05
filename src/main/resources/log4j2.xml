@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <Configuration status="WARN">
+
     <Properties>
-        <Property name="filename">test.log</Property>
+        <Property name="filename">logs/test.log</Property> //specifies the location and the file where the log can be found
     </Properties>
 
-    <Appenders>
+    <Appenders> //specify which types of appender the app will have and their formatters
 
         <Console name="Console" target="SYSTEM_OUT">
             <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
@@ -18,13 +20,13 @@
 
     </Appenders>
 
-    <Loggers>
+    <Loggers> //specify which level each appender will have
 
-        <Logger name="org.moita" level="warn">
+        <Logger name="org.moita" level="trace">
             <AppenderRef ref="Console"/>
         </Logger>
 
-        <Root level="error">
+        <Root level="trace">
             <AppenderRef ref="File"/>
         </Root>
 
