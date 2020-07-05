@@ -36,3 +36,7 @@ Enabling logging at a given level also enables logging at all higher levels.
 | DEBUG | FINE  |
 | TRACE | FINER  |
 | X | FINEST  |
+
+### Maven Dependency
+
+2. [Maven Respository](https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core)
