@@ -10,10 +10,18 @@ In this example there are two main files:
 
 ## Notes about logging
 
+### Frameworks
+There are a few frameworks for logging and each one of them has its own levels.
+
+* Log4J
+* Java Logging API
+* Logback
+* Tinylog
+
 ### Level
 Enabling logging at a given level also enables logging at all higher levels.
 
-Levels available:
+Levels available in  (framework):
 
 * FATAL 
 * ERROR 
