@@ -4,9 +4,6 @@ Logging messages can help developers to debug. Logged messages will be forwarded
 
 In this example there are two main files:
 
-[App.java](/src/main/java/org/moita/)
+1. [App.java](/src/main/java/org/moita/): simple method which divides two numbers.
 
-[log4j2.xml](/codeExamples/WebdriverDeclaration.java)
-
-1. App.java: simple method which divides two numbers.
-2. log4j2.xml: contains parameters for logging messages.
+2. [log4j2.xml](/codeExamples/WebdriverDeclaration.java): contains parameters for logging messages.
