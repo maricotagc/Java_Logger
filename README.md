@@ -21,13 +21,14 @@ There are a few frameworks for logging and each one of them has its own levels.
 ### Level
 Enabling logging at a given level also enables logging at all higher levels.
 
-Levels available in  (framework):
-
-* FATAL 
-* ERROR 
-* WARN 
-* INFO 
-* DEBUG 
-* TRACE
+| Log4J | Java Logging API |
+| ------------- | ------------- |
+| FATAL | SEVERE |
+| ERROR | WARNING|
+| WARN  | INFO  |
+| INFO  | CONFIG  |
+| DEBUG | FINE  |
+| TRACE | FINER  |
+| X | FINEST  |
 
 ### Appenders
