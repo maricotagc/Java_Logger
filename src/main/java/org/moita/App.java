@@ -5,15 +5,15 @@ import org.apache.logging.log4j.Logger;
 
 public class App {
 
-    private final static Logger LOGGER = LogManager.getLogger(App.class.getName());
+    private final static Logger LOGGER = LogManager.getLogger(App.class.getName()); //instance of Logger class
     private int result = 0;
 
     public int div(int num1, int num2) throws Exception {
-        LOGGER.trace("Starting division");
-        LOGGER.info("Numbers being divided: " + num1 + " and " + num2);
+        LOGGER.trace("Starting division");  //logging level = trace
+        LOGGER.info("Numbers being divided: " + num1 + " and " + num2); //logging level = info
 
         if (num2 == 0) {
-            LOGGER.error("It is not possible to divide any number by zero");
+            LOGGER.error("It is not possible to divide any number by zero"); //logging level = error
             throw new Exception("ERROR MSG");
 
         } else {
