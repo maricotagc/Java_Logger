@@ -12,11 +12,11 @@ In this example there are two main files:
 
 **Loggers** are responsible for capturing events (LogRecords) and passing them to the appropriate Appender.
 
-**Appenders (handlers)** are responsible for recording log events to a destination.
+**Appenders (handlers)** are responsible for recording log events to a destination (console, file, etc).
 
 **Layouts (formatters)** are responsible for determine how the data looks when it appears in a log entry.
 
-When your application makes a logging call, the Logger records the event in a LogRecord and forwards it to the appropriate Appender. The Appender then formats the record using a Layout before sending it a destination such as the console, a file, or another application. 
+When your application makes a logging call, the Logger records the event in a LogRecord and forwards it to the appropriate Appender. The Appender then formats the record using a Layout before sending it to a destination. 
 
 ### Frameworks
 There are a few frameworks for logging and each one of them has its own levels.
