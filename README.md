@@ -4,7 +4,7 @@ Logging messages can help developers to debug. Logged messages will be forwarded
 
 In this example there are two main files:
 
-[App.java](/codeExamples/WebdriverDeclaration.java)
+[App.java](/src/main/java/org/moita/)
 
 [log4j2.xml](/codeExamples/WebdriverDeclaration.java)
 
