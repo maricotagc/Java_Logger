@@ -6,4 +6,4 @@ In this example there are two main files:
 
 1. [App.java](/src/main/java/org/moita/): simple method which divides two numbers.
 
-2. [log4j2.xml](/codeExamples/WebdriverDeclaration.java): contains parameters for logging messages.
+2. [log4j2.xml](/src/main/resources/): contains parameters for logging messages.
