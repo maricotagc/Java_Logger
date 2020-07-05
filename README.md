@@ -39,4 +39,4 @@ Enabling logging at a given level also enables logging at all higher levels.
 
 ### Maven Dependency
 
-2. [Maven Respository](https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core)
+[Maven Respository](https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core)
